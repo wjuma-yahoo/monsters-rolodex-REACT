@@ -37,7 +37,6 @@ export class App extends Component {
           placeholder="Buscar monster" 
           onChange={(e) => {
             let searchString = e.target.value.toLowerCase();
-            
             this.setState(
               () => {
                 return { searchString }
