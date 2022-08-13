@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+:root {
+
+  --bs-card-spacer-y: 1.6rem;
+  --bs-card-spacer-x: 1.6rem;
+
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: #212529;
+
+  --bs-card-border-radius: 1rem;
+
+  --bs-card-color: #fff;
+  --bs-card-bg: rgb(0 249 241 / 48%);
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -17,4 +33,13 @@ h1 {
 }
 h2 {
   font-size: 3.6rem;
+}
+
+.app-title {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #0ccac4;
+  font-family: 'Bigelow Rules', cursive;
 }
