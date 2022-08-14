@@ -1,7 +1,13 @@
 .search-box {
     --webkit-appearance: none;
-    padding: .5rem;
-    width: 15rem;
+    font-size: 1.6rem;
+    height: 5rem;
     line-height: 1.8rem;
     margin-bottom: 2.2rem;
+    padding: .5rem;
+    width: 15rem;
+}
+
+.search-box:focus-visible {
+    outline: none;
 }
